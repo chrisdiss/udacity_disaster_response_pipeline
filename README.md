@@ -26,7 +26,7 @@ In the web app you may input any text message (English) and it will categorize i
 
 ## Screenshots
 
-![Alt text](relative/path/to/Screenshot1.jpg?raw=true "Title")
+![alt text](https://github.com/chrisdiss/udacity_disaster_response_pipeline/edit/main//Screenshot1.png?raw=true)
 
 ## Install
 This project requires Python 3.x and the following Python libraries installed:
