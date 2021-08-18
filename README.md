@@ -17,9 +17,9 @@ This project is part of the udacity Data Science Nanodegree Program. The objecti
 
 In a terminal navigate to the top-level project directory udacity_disaster_response_pipeline/ (that contains this README) and run commands in the following sequence:
 
-python process_data.py disaster_messages.csv disaster_categories.csv disaster_response_db.db
-python train_classifier.py disaster_response_db.db classifier.pkl
-python run.py
+1. python process_data.py disaster_messages.csv disaster_categories.csv disaster_response_db.db
+2. python train_classifier.py disaster_response_db.db classifier.pkl
+3. python run.py
 Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a browser)
 
 In the web app you may input any text message (English) and it will categorize it among 35 classes.
