@@ -1,4 +1,3 @@
-  
 import json
 import plotly
 import pandas as pd
@@ -27,7 +26,7 @@ def tokenize(text):
     return clean_tokens
 
 # load data
-engine = create_engine('sqlite:///../data/disaster_response_db.db')
+engine = create_engine('sqlite:///../data/DisasterResponse.db')
 df = pd.read_sql_table('Disasters', engine)
 
 # load model
